@@ -1,0 +1,23 @@
+'.platform-darwin atom-workspace':
+  'cmd-shift-t': 'tokamak-terminal:new'
+  'cmd-shift-j': 'tokamak-terminal:prev'
+  'cmd-shift-k': 'tokamak-terminal:next'
+  'cmd-shift-x': 'tokamak-terminal:close'
+  'ctrl-enter': 'tokamak-terminal:insert-selected-text'
+  'ctrl-`': 'tokamak-terminal:toggle'
+
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'alt-shift-t': 'tokamak-terminal:new'
+  'alt-shift-j': 'tokamak-terminal:prev'
+  'alt-shift-k': 'tokamak-terminal:next'
+  'alt-shift-x': 'tokamak-terminal:close'
+  'ctrl-enter': 'tokamak-terminal:insert-selected-text'
+  'ctrl-`': 'tokamak-terminal:toggle'
+
+'.platform-darwin .tokamak-terminal .terminal':
+  'cmd-c': 'tokamak-terminal:copy'
+  'cmd-v': 'tokamak-terminal:paste'
+
+'.platform-linux .tokamak-terminal .terminal, .platform-win32 .tokamak-terminal .terminal':
+  'alt-v': 'tokamak-terminal:paste'
+  'alt-c': 'tokamak-terminal:copy'

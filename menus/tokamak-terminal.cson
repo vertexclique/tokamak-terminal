@@ -1,0 +1,58 @@
+'context-menu':
+  '.tokamak-terminal .tokamak-terminal-status-icon': [
+    {label: 'Red', command: 'tokamak-terminal:status-red'},
+    {label: 'Orange', command: 'tokamak-terminal:status-orange'},
+    {label: 'Yellow', command: 'tokamak-terminal:status-yellow'},
+    {label: 'Green', command: 'tokamak-terminal:status-green'},
+    {label: 'Blue', command: 'tokamak-terminal:status-blue'},
+    {label: 'Purple', command: 'tokamak-terminal:status-purple'},
+    {label: 'Pink', command: 'tokamak-terminal:status-pink'},
+    {label: 'Cyan', command: 'tokamak-terminal:status-cyan'},
+    {label: 'Magenta', command: 'tokamak-terminal:status-magenta'},
+    {label: 'Default', command: 'tokamak-terminal:status-default'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'tokamak-terminal:context-hide'},
+    {label: 'Rename', command: 'tokamak-terminal:context-rename'},
+    {label: 'Close', command: 'tokamak-terminal:context-close'}
+  ]
+  '.tokamak-terminal .terminal': [
+    {label: 'Copy', command: 'tokamak-terminal:copy'},
+    {label: 'Paste', command: 'tokamak-terminal:paste'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'tokamak-terminal:hide'},
+    {label: 'Close', command: 'tokamak-terminal:close'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'tokamak-terminal'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'tokamak-terminal:toggle'
+        },
+        {
+          'label': 'New Terminal'
+          'command': 'tokamak-terminal:new'
+        },
+        {
+          'label': 'Previous Terminal'
+          'command': 'tokamak-terminal:prev'
+        },
+        {
+          'label': 'Next Terminal'
+          'command': 'tokamak-terminal:next'
+        },
+        {
+          'label': 'Close Terminal'
+          'command': 'tokamak-terminal:close'
+        },
+        {
+          'label': 'Close All Terminals'
+          'command': 'tokamak-terminal:close-all'
+        }
+      ]
+    ]
+  }
+]
