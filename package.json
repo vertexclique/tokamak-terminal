@@ -1,7 +1,7 @@
 {
   "name": "tokamak-terminal",
   "main": "./lib/tokamak-terminal",
-  "version": "0.1.4",
+  "version": "10.0.1",
   "description": "A terminal package for Atom, complete with themes, API and more for Tokamak IDE. Fork of terminal-plus.",
   "author": "Mahmut Bulut <vertexclique@gmail.com>",
   "keywords": [
