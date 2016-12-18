@@ -115,6 +115,7 @@ module.exports =
           default: 'standard'
           enum: [
             'standard',
+            'elementary-loki',
             'inverse',
             'grass',
             'homebrew',
